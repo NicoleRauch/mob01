@@ -1,2 +1,2 @@
 # mob01
-Ensemble Programming
+Fizz Buzz

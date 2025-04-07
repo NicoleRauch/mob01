@@ -1,0 +1,6 @@
+D:\ws\mob01\FizzBuzz.Tests\obj\Debug\net9.0\FizzBuzz.Tests.csproj.AssemblyReference.cache
+D:\ws\mob01\FizzBuzz.Tests\obj\Debug\net9.0\FizzBuzz.Tests.GeneratedMSBuildEditorConfig.editorconfig
+D:\ws\mob01\FizzBuzz.Tests\obj\Debug\net9.0\FizzBuzz.Tests.AssemblyInfoInputs.cache
+D:\ws\mob01\FizzBuzz.Tests\obj\Debug\net9.0\FizzBuzz.Tests.AssemblyInfo.cs
+D:\ws\mob01\FizzBuzz.Tests\obj\Debug\net9.0\FizzBuzz.Tests.csproj.CoreCompileInputs.cache
+D:\ws\mob01\FizzBuzz.Tests\obj\Debug\net9.0\FizzBuzz.Tests.sourcelink.json
