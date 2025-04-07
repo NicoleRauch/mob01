@@ -1,40 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ws\\mob01\\FizzBuzz.Tests\\FizzBuzz.Tests.csproj": {}
+    "D:\\Dev\\mob01\\FizzBuzz.Tests\\FizzBuzz.Tests.csproj": {}
   },
   "projects": {
-    "D:\\ws\\mob01\\FizzBuzz.Tests\\FizzBuzz.Tests.csproj": {
+    "D:\\Dev\\mob01\\FizzBuzz.Tests\\FizzBuzz.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ws\\mob01\\FizzBuzz.Tests\\FizzBuzz.Tests.csproj",
+        "projectUniqueName": "D:\\Dev\\mob01\\FizzBuzz.Tests\\FizzBuzz.Tests.csproj",
         "projectName": "FizzBuzz.Tests",
-        "projectPath": "D:\\ws\\mob01\\FizzBuzz.Tests\\FizzBuzz.Tests.csproj",
-        "packagesPath": "C:\\Users\\puszard1\\.nuget\\packages\\",
-        "outputPath": "D:\\ws\\mob01\\FizzBuzz.Tests\\obj\\",
+        "projectPath": "D:\\Dev\\mob01\\FizzBuzz.Tests\\FizzBuzz.Tests.csproj",
+        "packagesPath": "C:\\Users\\z003ajtm\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\mob01\\FizzBuzz.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\puszard1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\z003ajtm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://artifactory.siemens-healthineers.com/artifactory/api/nuget/v3/di_dna_native_nuget/index.json": {},
-          "https://artifactory.siemens-healthineers.com/artifactory/api/nuget/v3/di_dna_syngoone_nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
-            "projectReferences": {}
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Dev\\mob01\\FizzBuzz\\FizzBuzz.csproj": {
+                "projectPath": "D:\\Dev\\mob01\\FizzBuzz\\FizzBuzz.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -46,12 +48,11 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -90,7 +91,72 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.104/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Dev\\mob01\\FizzBuzz\\FizzBuzz.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Dev\\mob01\\FizzBuzz\\FizzBuzz.csproj",
+        "projectName": "FizzBuzz",
+        "projectPath": "D:\\Dev\\mob01\\FizzBuzz\\FizzBuzz.csproj",
+        "packagesPath": "C:\\Users\\z003ajtm\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\mob01\\FizzBuzz\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\z003ajtm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

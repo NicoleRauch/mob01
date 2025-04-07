@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using fizzbuzz;
 
 namespace fizzbuzz;
 
@@ -16,6 +17,6 @@ public class FizzBuzzTest
         var result = fizzBuzz.Get(1);
 
         // Assert
-        Assert.Equal("1", result);
+        Assert.That(result, Is.EqualTo("1"));
     }
 }

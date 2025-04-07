@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {
+    "net8.0": {
       "coverlet.collector/6.0.2": {
         "type": "package",
         "build": {
@@ -345,6 +345,16 @@
           "lib/netstandard2.0/System.Reflection.Metadata.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "FizzBuzz/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/FizzBuzz.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FizzBuzz.dll": {}
         }
       }
     }
@@ -793,10 +803,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "FizzBuzz/1.0.0": {
+      "type": "project",
+      "path": "../FizzBuzz/FizzBuzz.csproj",
+      "msbuildProject": "../FizzBuzz/FizzBuzz.csproj"
     }
   },
   "projectFileDependencyGroups": {
-    "net9.0": [
+    "net8.0": [
+      "FizzBuzz >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.12.0",
       "NUnit >= 4.2.2",
       "NUnit.Analyzers >= 4.4.0",
@@ -805,40 +821,42 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\puszard1\\.nuget\\packages\\": {},
+    "C:\\Users\\z003ajtm\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ws\\mob01\\FizzBuzz.Tests\\FizzBuzz.Tests.csproj",
+      "projectUniqueName": "D:\\Dev\\mob01\\FizzBuzz.Tests\\FizzBuzz.Tests.csproj",
       "projectName": "FizzBuzz.Tests",
-      "projectPath": "D:\\ws\\mob01\\FizzBuzz.Tests\\FizzBuzz.Tests.csproj",
-      "packagesPath": "C:\\Users\\puszard1\\.nuget\\packages\\",
-      "outputPath": "D:\\ws\\mob01\\FizzBuzz.Tests\\obj\\",
+      "projectPath": "D:\\Dev\\mob01\\FizzBuzz.Tests\\FizzBuzz.Tests.csproj",
+      "packagesPath": "C:\\Users\\z003ajtm\\.nuget\\packages\\",
+      "outputPath": "D:\\Dev\\mob01\\FizzBuzz.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\puszard1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\z003ajtm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net9.0"
+        "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://artifactory.siemens-healthineers.com/artifactory/api/nuget/v3/di_dna_native_nuget/index.json": {},
-        "https://artifactory.siemens-healthineers.com/artifactory/api/nuget/v3/di_dna_syngoone_nuget": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
-          "projectReferences": {}
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\Dev\\mob01\\FizzBuzz\\FizzBuzz.csproj": {
+              "projectPath": "D:\\Dev\\mob01\\FizzBuzz\\FizzBuzz.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -850,12 +868,11 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
-      "net9.0": {
-        "targetAlias": "net9.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -894,7 +911,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.104/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
